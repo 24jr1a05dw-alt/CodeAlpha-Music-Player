@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Music Player</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="player">
+
+<div class="cover-box">
+<img id="cover" src="images/lovemelikeudo.jpg" alt="Cover art">
+</div>
+<div class="visualizer">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<button id="playlistBtn">
+<i class="fas fa-music"></i> PL
+</button>
+
+<h2 id="title">Love me like you do</h2>
+<p id="artist">Ed Sheeran</p>
+<div class="song-actions">
+
+</div>
+<div class="time">
+<span id="current">0:00</span>
+<span id="duration">0:00</span>
+</div>
+
+<label for="progress">Progress</label>
+<input
+type="range"
+id="progress"
+value="0"
+title="Song progress">
+
+<div class="controls">
+
+<button id="shuffle" title="Shuffle">
+    <i class="fas fa-random"></i>
+</button>
+
+<button id="prev" type="button" title="Previous song">
+<i class="fas fa-backward"></i>
+</button>
+
+<button id="play" type="button" title="Play/Pause">
+<i class="fas fa-play"></i>
+</button>
+
+<button id="next" type="button" title="Next song">
+<i class="fas fa-forward"></i>
+</button>
+
+<button id="repeat" title="Repeat">
+    <i class="fas fa-redo"></i>
+</button>
+
+</div>
+
+<div class="volume">
+
+<i class="fas fa-volume-up"></i>
+
+<input
+type="range"
+id="volume"
+min="0"
+max="1"
+step="0.1"
+value="1"
+title="Volume" aria-label="Volume control">
+
+</div>
+
+<audio id="audio"></audio>
+
+</div>
+
+<div class="playlist-box">
+
+<h2>Playlist</h2>
+
+<div class="search-box">
+    <input
+        type="text"
+        id="searchSong"
+        placeholder="🔍 Search songs or artits..."
+    >
+</div>
+
+<ul id="playlist"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
