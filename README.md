@@ -6,7 +6,7 @@ It allows users to play, pause, skip songs, and enjoy a simple playlist experien
 ---
 
 ## 🚀 Live Demo
-https://yourusername.github.io/music-player/
+https://24jr1a05dw-alt.github.io/CodeAlpha-Music-Player/
 
 ---
 
