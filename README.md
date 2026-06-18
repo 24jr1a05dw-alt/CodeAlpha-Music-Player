@@ -11,7 +11,7 @@ https://yourusername.github.io/music-player/
 ---
 
 ## 💻 GitHub Repository
-https://github.com/yourusername/music-player
+https://github.com/24jr1a05dw-alt/CodeAlpha-Music-Player.git
 
 ---
 
